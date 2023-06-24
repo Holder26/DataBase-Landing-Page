@@ -1,0 +1,343 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap" rel="stylesheet">    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/399832d079.js" crossorigin="anonymous"></script>
+
+    <title>Nav Bar ##</title>
+</head>
+<body>
+    <div class="overlay"></div>
+
+
+    
+    
+    <nav>
+
+        <a href="" class="nav-icon"
+            aria-label = "visit homepage"
+            aria-current="page">
+            <i class="fa-solid fa-robot"></i>
+            <span>EverNet</span>
+        </a>
+
+        <div class="main-navlinks">
+            <button class="hamburger" type="button" aria-label="toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <div class="navlink-container">
+            <p aria-current="page">Home</p>
+            <p>Services</p>
+            <p>Pricing</p>
+            <p >Contact</p>
+            <p id="dataBtn">DataBase </p>
+
+            
+         </div>   
+            
+        
+
+        <div class="nav-authentication">
+            <a href="#" class="user-toggler" aria-label="sign in page">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <div class="sign-btn">
+                <button type="button" id="sign_in" >Sign In</button>
+                <button type="button" id="sign_up">Sign Up</button>
+            </div>
+        </div>
+        
+    </nav>
+
+    <!------------------ LANDING PAGE ---------------------------->
+<main class="main">
+
+
+    <section class="mainPage">
+
+        <div class="mainText">
+            <h1 class="titreMain"><span class="span1">GEREZ.</span> <span class="span2">SIMPLIFIEZ.</span>  <span class="span3"> OPTIMISEZ </span> <br> <br>  <span class="span4"> Vos données utilisateurs en toute sérénité.</span></h1>
+            <p class="mainAccroche">Gérer efficacement les données utilisateurs est essentiel pour toute entreprise. <br><span class="evernet">EverNet</span> vous permettra de gérer vos données utilisateurs en toute simplicité, tout en optimisant votre efficacité et votre productivité.</p>
+            <button class="servicesBtn">DECOUVRIR</button>
+        </div>
+
+        <div class="imgAcceuil">
+            <img src="data-main.png" alt="">
+        </div>
+
+    </section>
+
+<!----- services ------>
+
+    <section class="service-section">
+
+        <h1 class="serviceTitre">Utilisez <span>EverNeT</span>  pour gagner du
+            temps et de l’autonomie
+        </h1>
+
+        <div class="serviceBox">
+            <div class="boxContainer">
+                <div class="iconService">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                 <h2 class="titreBoxService">
+                        Fiche de membre complète
+                </h2>
+                <p class="textBoxService">
+                        Visualisez et personalisez la synthèse de toutes les informations de chaque utilisateur.
+                </p>
+            </div>
+
+            <div class="boxContainer">
+                <div class="iconService">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                 <h2 class="titreBoxService">
+                        Exploitez vos données facilement
+                </h2>
+                <p class="textBoxService">
+                    Recherchez et affichez une information selon plusieurs critères en quelques secondes.
+                </p>
+            </div>
+
+            <div class="boxContainer">
+                <div class="iconService">
+                    <i class="fa-solid fa-message"></i>
+                </div>
+                 <h2 class="titreBoxService">
+                    Communiquez efficacement
+
+                </h2>
+                <p class="textBoxService">
+                Choisissez votre canal de communication le plus adapté à votre base de données.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+   
+<!----- capture/info ------>
+
+<section class="capture-info">
+
+    <div class="captureBox">
+        <img src="captureData.png" alt="" class="captureData">
+        <img src="captureCard.png" alt="" class="captureCard">
+    </div>
+
+    <div class="captureText">
+
+        <div class="text"> <i class="fa-solid fa-circle-check"></i> <p> Vos fiches d'utilisateurs toujours à jour et personalisées selon vos besoins.</p></div>
+        <div class="text"> <i class="fa-solid fa-circle-check"></i> <p>Effectuez des recherches multicritères sur tous les champs parametrées.</p></div>
+        <div class="text"> <i class="fa-solid fa-circle-check"></i> <p>Nous nous engageons à protéger votre vie privée. Notre politique de confidentialité est fondamentale pour nous</p></div>
+        <div class="text"> <i class="fa-solid fa-circle-check"></i> <p>Les informations vous appartiennet. Vous pouvez les exporter si vous nous quittez.</p></div>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+</main>
+
+
+    <!------------------- SIGN IN ------------->
+    <div class="sign-in-container">
+        
+        <div class="sign-in-section">
+                <div class="container">
+            <h1>CONNEXION</h1>
+            <form action="">
+                <div class="group-input">
+                    <label for="login">Login</label>
+                    <input type="text" id="login" autocomplete="off">
+                    <span class="loginError">Veuillez renseigner votre nom d'utilisateur</span>
+                    
+                </div>
+                <div class="group-input">
+                     <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <span class="passwordError">Veuillez renseigner votre mot de passe</span>
+                   
+                </div>
+               <a href="#" class="mdp">Mot de passe oublié?</a> 
+                <button id="btn-log">Login</button>
+            </form>
+    
+                <div class="sign-in">
+                    <p>Vous n'avez pas de compte?</p>
+                    <a href="#" class="createAccount">Creer un compte</a>
+                </div> 
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <!--------------------- SIGN UP ---------------------->
+
+<div class="signUpContainer">
+
+    <form action="" class="sign-up-form">
+        <h1 class="SignUp-title">INSCRIPTION</h1>
+
+    <div class="input-group">
+        <label for="user">Nom d'utilisateur</label>
+        <div class="icon-input-container">
+          <input 
+          type="text"
+          autocomplete="off"
+          id="user"
+          
+          maxlength="24"
+          >
+          <img src="check.svg" alt="icone de validation" class="icone-verif">
+        </div>
+        <span class="error-msg">Choisissez un pseudo contenant au moins 3 caractères.</span>
+      </div>
+
+    <div class="input-group">
+        <label for="mail">Entrez votre email</label>
+        <div class="icon-input-container">
+          <input 
+          type="text"
+          autocomplete="off"
+          id="mail"
+          
+          maxlength="24"
+          >
+          <img src="check.svg" alt="icone de validation" class="icone-verif">
+        </div>
+        <span class="error-msg">Renseignez un email valide</span>
+      </div>
+
+    <div class="input-group">
+        <label for="signUp-password">Mot de passe</label>
+        <div class="icon-input-container">
+          <input 
+          type="password"
+          autocomplete="off"
+          id="signUp-password"
+          maxlength="24"
+          >
+          <img src="check.svg" alt="icone de validation" class="icone-verif">
+        </div>
+        <span class="password-info">6 caractères minimum, au moins un symbole, un chiffre </span>
+      </div>
+
+    <div class="input-group">
+        <label for="confirm-password">Confirmez le mot de passe</label>
+        <div class="icon-input-container">
+          <input 
+          type="password"
+          autocomplete="off"
+          id="confirm-password"
+          
+          >
+          <img src="check.svg" alt="icone de validation" class="icone-verif">
+          <span class="error-msg">Veuillez confirmer le mot de passe</span>
+        </div>
+        
+        
+      </div>
+
+      <button type="submit" class="btn-signUp">S'inscrire</button>
+
+
+    </form>
+
+
+    </div>
+
+
+    <!-------------------- BASE DE DONNEE ---------------------- -->
+
+    
+
+    <form class="data-user-form">
+        <div class="break"></div>
+        <h2 class="data-title">BASE DONNEE UTILISATEUR</h2>
+
+        <div class="databaseSearch">
+            <input type="text" id="dataSearch" placeholder="Recherche d'utilisateurs" autocomplete="off">
+            <label for="dataSearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+        </div>
+
+        <div class="table">
+            <h3 class="table-title">Name</h3>
+            <h3 class="table-title">Email</h3>
+            <h3 class="table-title">Phone</h3>
+        </div>
+
+        <ul class="table-result">
+        <!-- <div class="table-item">
+            <div class="info">
+                <img src="" alt="avatar">
+                <p class="nom"></p>
+                <p class="premon"></p>
+            </div>
+            <p class="mail"></p>
+            <p class="phone"></p>
+        </div> -->
+
+        </ul>
+
+    </form>
+
+
+
+    <div class="user-card">
+        <!-- <div class="user-card-container">
+
+            <div class="top-user">
+                <div class="idUser">
+                    <img src="" alt="photo user" class="user-img">
+                    <h3 class="first-last-name"></h3>
+                    <p class="age"></p>
+                </div>
+                <div class="iconUser">
+                    <i class="fa-solid fa-message" id="msg"></i>
+                    <i class="fa-solid fa-phone" id="call"></i>
+                </div>
+            </div>
+            <div class="info-user">
+                <p class="label">Ville</p>
+                <p class="infoLabel"></p>
+                <p class="label">Mobile</p>
+                <p class="infoLabel"></p>
+                <p class="label">Email</p>
+                <p class="infoLabel"></p>
+            </div>
+
+        </div> -->
+    </div>
+
+
+
+
+    <script src="script.js" defer></script>
+</body>
+</h
